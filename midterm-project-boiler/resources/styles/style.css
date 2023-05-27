@@ -191,13 +191,52 @@ body {
   width: 15rem;
 }
 
-/* ------------------------------ Partners ------------------------------ */
-
-/* Your CSS code goes here */
-
 /* ------------------------------ Recent projects ------------------------------ */
+.sectionProject{
+  margin: 100px 150px 20px 150px;
+  
+}
+.projectsDiv{
+   display: flex;
+  justify-content: space-between;
 
-/* Your CSS code goes here */
+}
+.projectTitulo{
+  margin: 100px 0 75px 0;
+  display: flex;
+}
+
+.projectTitulo h2 {
+  font-size: 2.5rem;
+}
+.project {
+  width: 32%;
+  background-color: white;
+}
+.project img {
+  width: 100%;
+  height: 240px;
+}
+
+.project h3 {
+  font-size: 1.3rem;
+  margin: 27px;
+  background-color: white;
+}
+
+.project p {
+  font-size: 1.1rem;
+  margin: 0 27px 27px 27px;
+  background-color: white;
+}
+
+.project a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #072ac8;
+  margin: 0 27px 27px 27px;
+  background-color: white;
+}
 
 /* ------------------------------ Client reviews ------------------------------ */
 
