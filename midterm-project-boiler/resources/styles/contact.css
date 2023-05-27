@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+:root {
+  --primary: #072ac8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F2F4FC;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#section1{
+   width: 100%;
+   height: 100%; 
+   display:flex;
+   justify-content: center;
+}
+
+#formulario{
+    width: 70%; 
+    height: 100%; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#nombre{
+    width: 100%;
+    height: 50px;
+}
+
+.divMedio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divEmail,.divPhone{
+    width: 49%;
+}
+
+#tituloForm{
+    font-size: 60px;
+    color:#292E47;
+}
+
+.labelform{
+    color: #7e7f81;
+}
+
+#email,#nombre,#phone,#mensaje{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    border: none;
+    background-color: #E4E6F0;
+    margin-top:5px;
+    padding-left:10px;
+}
+
+#email{
+    width: 100%;
+    height: 50px;
+
+}
+
+#phone{
+    width: 100%;
+    height: 50px;
+
+}
+
+
+#mensaje{
+    width: 100%;
+    height: 100px;
+    padding-top:10px;
+
+}
+
+.divMensaje{
+    width: 100%;
+}
+
+#enviar{
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight:800;
+    border:none;
+    background-color: #072ac8;
+
+}
+
+#enviar:hover{
+    color: white;
+    background-color: #292E47;
+    border:none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="resources/styles/contact.css" />
+    <link rel="stylesheet" href="resources/styles/style.css" />
+</head>
+<body>
+
+    <section class="container">
+          <nav class="menu">
+            <img src="resources/images/logos/circle.svg" alt="circle"> 
+            <ul id="lista">
+              <li> <a href="./index.html"> Home</a> </li>
+              <li> <a href="#projects"> Projects </a> </li>
+              <li> <a href="#services"> Services  </a></li>
+          </ul>
+          <button class="btnContacto type="submit"  onclick="location.href='contact-us.html'">Contact Us</button>
+        </nav>
+    </section>
+      <section id="section1">
+      <div id="formulario">
+        <h1 id="tituloForm">Contact Us</h1><br><br>
+        <div class="divNombre">
+            <form action="enviar.php" method="POST">
+            <label class="labelform" for="nombre">Full Name:*</label><br>
+            <input id="nombre" type="text" id="nombre" name="nombre" placeholder="Enter your full name" required><br><br>
+        </div>
+        <div class="divMedio">
+            <div class="divEmail">
+            <label class="labelform" for="email">Email:*</label><br>
+            <input id="email" type="email" id="email" name="email" placeholder="Enter your email    " required><br><br>
+        </div>
+        <div class="divPhone">
+            <label class="labelform" for="phone">Phone:*</label><br>
+            <input id="phone" type="number"  name="phone" placeholder="Enter your phone"required><br><br>
+        </div>
+        </div>
+        <div class="divMensaje">
+            <label class="labelform" for="mensaje">Message:*</label><br>
+            <textarea
+            placeholder="Write your message here..."
+            maxlength="5000" id="mensaje" required=""
+          ></textarea><br><br>
+        </div> 
+        <input id="enviar" type="submit" value="Submit">
+        </form>
+      </div>
+      </section>
+</body>
+</html>
+
