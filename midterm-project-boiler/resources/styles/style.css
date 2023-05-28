@@ -212,6 +212,7 @@ body {
 .project {
   width: 32%;
   background-color: white;
+  padding-bottom: 2%;
 }
 .project img {
   width: 100%;
@@ -236,38 +237,183 @@ body {
   color: #072ac8;
   margin: 0 27px 27px 27px;
   background-color: white;
+  
 }
 
-/* ------------------------------ Client reviews ------------------------------ */
+/*---------------TESTIONIAL SECTION -------------------*/
 
-/* Your CSS code goes here */
+.testimonialSection{
+  margin: 100px 120px 20px 120px;
+  background-color: #292e47;
+  background-image: url("../images/testimonial-section/orbit.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 500px;
+ 
+}
+.testimonialText{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+}
+.testimonialText p{
+  color: goldenrod;
+  font-size: 1.6rem;
+  background-color: transparent;
+  width: 50%;
+  text-align: center;
+ }
 
+
+.testimonialText h2{
+  color: white;
+  font-size: 2rem;
+  background-color: transparent;
+
+}
+
+.kristin{
+  width: 17%;
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+}
+
+.kristin img{
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  
+}
+
+.kristin h4{
+  color: #7cc2ff;
+  font-weight: 400;
+  background-color: transparent;
+  margin: 0;
+}
+
+.kristin h5{
+  color: white;
+  font-weight: 400;
+  background-color: transparent;
+  
+}
+
+.kristin div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: transparent;
+}
+
+#emoji1{
+  width: 150px;
+  height: 150px;
+  left: 12%;
+  top: 10%;
+  right: auto;
+  bottom: auto;
+  background-color: transparent;
+  position: absolute;
+}
+
+#emoji2{
+  width: 150px;
+  height: 150px;
+  right: 13%;
+  top: 10%;
+  left: auto;
+  bottom: auto;
+  background-color: transparent;
+  position: absolute;
+}
+
+#emoji3{
+  width: 150px;
+  height: 150px;
+  left: 12%;
+  bottom: 10%;
+  right: auto;
+  top: auto;
+  background-color: transparent;
+  position: absolute;
+}
+
+#emoji4{
+  width: 150px;
+  height: 150px;
+  right: 13%;
+  bottom: 10%;
+  left: auto;
+  top: auto;
+  background-color: transparent;
+  position: absolute;
+}
 /* ------------------------------ Services ------------------------------ */
 
-/* Your CSS code goes here */
+.sectionServices{
+  margin: 100px 150px 20px 150px;
+  
+}
+.servicesDiv{
+  display: flex;
+  justify-content: space-between;
 
+}
+.servicesTitulo{
+  margin: 100px 0 75px 0;
+  display: flex;
+}
+
+.servicesTitulo h2 {
+  font-size: 2.5rem;
+}
+.services {
+  width: 32%;
+  background-color: white;
+  padding-bottom: 2%;
+}
+.services img {
+  width: 20%;
+  height: 130px;
+}
+
+.services h3 {
+  font-size: 1.3rem;
+  margin: 27px;
+  background-color: white;
+}
+
+.services p {
+  font-size: 1.1rem;
+  margin: 0 27px 27px 27px;
+  background-color: white;
+}
+
+.services a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #072ac8;
+  margin: 0 27px 27px 27px;
+  background-color: white;
+  
+}
 /* ------------------------------ Questions form ------------------------------ */
 
-/* Your CSS code goes here */
+
 
 /* ------------------------------ Footer ------------------------------ */
 
 /* Your CSS code goes here */
-
-/* -------------------------------------------------------------------------- */
-/* ------------------------------ PROJECT html ------------------------------ */
-/* -------------------------------------------------------------------------- */
-
-/* ------------------------------ Project main ------------------------------ */
-
-/* Your CSS code goes here */
-
-/* ----------------------------------------------------------------------------- */
-/* ------------------------------ CONTACT-US html ------------------------------ */
-/* ----------------------------------------------------------------------------- */
-
-/* ------------------------------ Form ------------------------------ */
-
 
 
 /* ----------------------------------------------------------------------------- */
