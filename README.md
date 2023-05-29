@@ -74,8 +74,8 @@ https://www.youtube.com/watch?v=x-MFJhqRZ7s&t=9s
 
 En esta Web vamos a utlizar HTML 5, CSS3 y JavaScript.
 Para tener un repositorio de esta web hemos utilizado Github para tener un control de nuestro proyecto y tener una copia del proyecto.
-También vamos a usar Netify o Versel para poder tener nuestra web alojada. 
-
+También vamos a usar Vercel para poder tener nuestra web alojada. 
+Canva para poder hacer la presentación del proyecto.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -96,7 +96,9 @@ Mi nombre es Sanra Angosto tengo 28 años y es la primera vez que estoy desaroll
 
 sandra_angosto@hotmail.es
 
-Project Link: [https://github.com/Sandraangosto/IRON-SANDRA/tree/main/midterm-project-boiler](https://github.com/Sandraangosto/IRON-SANDRA/tree/main/midterm-project-boiler)
+Project Link Github: [https://github.com/Sandraangosto/Circle-Agency-Project/tree/main](https://github.com/Sandraangosto/Circle-Agency-Project/tree/main)
+
+Project Link Vercel: https://circle-agency-project.vercel.app/
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
