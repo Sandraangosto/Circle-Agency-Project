@@ -182,12 +182,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 70rem;
-  flex-wrap: wrap;
 }
 
 .logos img{
-  margin: 0 auto;
   width: 120%;
 }
 
