@@ -135,4 +135,140 @@
   .kristin img{
     margin-right: 4%;
   }
+  /*------------------SECTION SERVICES --------------_*/
+
+  .sectionServices{
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-right: 7%;
+  }
+
+  .servicesTitulo{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .servicesTitulo h2{
+    text-align: left;
+    font-size: 2rem;
+  }
+  .servicesDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .services{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+  }
+
+  /*-------------SECTION QUESTIONS ---------------*/
+
+  .questions{
+    margin:0;
+    background: transparent;
+    background-color: #ffc600;
+    margin-top: 5%;
+  }
+
+  .tituloQuestions h2{
+    font-size: 1.7rem;
+    
+    background-color: #ffc600;
+  }
+
+ #btnEmail{
+    margin-left: 20%;
+    margin-right: 15%;
+    width: 60%;
+    margin-bottom: 7%;
+    border: none;
+ }
+
+ #btnSubscribe{
+    margin-left: 20%;
+    margin-right: 15%;
+    width: 60%;
+    border:none;
+ }
+
+ .emailQuestions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10%;
+ }
+/*---------------------FOOTER--------------*/
+
+#footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20%;
+    padding-bottom: 5%
+}
+
+#circleLogo{
+    width: 50%;
+    margin-left: 30%;
+}
+
+.footerImg p{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.links{
+    margin-left: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #072ac8;
+}
+
+/*------------PAGINA PROJECTS------------------*/
+
+.containerProject{
+    margin: 30px 30px 30px 30px;
+}
+.simplifyProject h1{
+    font-size: 3rem;
+}
+.textoSimplify h3{
+    font-size: 1rem;
+}
+.textoSimplify h4{
+    font-size: 1rem;
+}
+
+/*----------CONTACT US --------------*/
+
+#tituloForm{
+    font-size: 2.5rem;
+}
+.divMedio{
+    display: flex;
+    flex-direction: column;
+}
+.divEmail,.divPhone{
+    width: 100%;
+}
+
 } 
