@@ -47,10 +47,11 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
     }
     .logos img{
-        width: 110%;
+        width: 15em;
+        padding: 1em;
     }
     
     #amazon{
@@ -173,6 +174,7 @@
     background: transparent;
     background-color: #ffc600;
     margin-top: 5%;
+    padding-top:10%;
   }
 
   .tituloQuestions h2{
