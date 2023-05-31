@@ -506,4 +506,10 @@ body {
   height: auto;
 }
 
+/*----------------OCULTAR NAVBAR----------------*/
+
+.menu-collapse{
+  display: none;
+}
+
 
