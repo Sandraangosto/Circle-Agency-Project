@@ -512,4 +512,35 @@ body {
   display: none;
 }
 
+ /*-----------------ALERTA--------------*/
+
+ .alertaError,.alertaIronHack{
+  display: none;
+  padding: 20px;
+  background-color: #ea2121;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.alerta {
+  display: none;
+  padding: 20px;
+  background-color: #25bc5c;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.alerta span, .alerta strong{
+  background-color: #25bc5c;
+}
+
+.alertaError span, .alertaError strong, .alertaIronHack span, .alertaIronHack strong{
+  background-color: #ea2121;
+}
 

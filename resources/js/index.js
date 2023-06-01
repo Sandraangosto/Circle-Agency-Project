@@ -25,3 +25,24 @@ btnmenu[0].addEventListener('click', () => {
         isBtnMenuOpen=false;
     }
   });
+
+  /*Función para obtener la info de lo proyectos*/
+
+  const getProjectsInfo = () => {
+    fetch('https://jsonplaceholder.typicode.com/posts')
+    .then((response) => response.json())
+    .then((data) => {
+        for (let i = 0; i < 3; i++) {
+            //console.log("project  " + i + ":" + data[i].toString());
+            document.querySelector('.projectsDiv').innerHTML += `<div class="project">
+            <img src="./resources/images/projects-section/${data[i].id}.jpg" alt="">
+            <h3>${data[i].title}</h3>
+            <p>${data[i].body}</p>
+            <a href="project.html?p=${data[i].id}">Learn More</a>
+            </div>`;
+        }
+    })
+    .catch((error) => console.log(error))
+}
+
+window.addEventListener("load", getProjectsInfo);

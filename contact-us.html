@@ -13,6 +13,23 @@
 </head>
 <body>
 
+  
+  <div class="alerta">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span
+    >
+    <strong>Thank you!</strong> Your Message Have Been Sent.
+  </div>
+
+  <div class="alertaError">
+    <span class="btnAlerta" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong>Ups.. :(</strong> Something Went Wrong.
+  </div>
+
+  <div class="alertaIronHack">
+    <span class="btnIronHack" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong>Ups.. :(</strong> I'm Ironhack, use another name.
+  </div>
+
     <section class="container">
           <nav class="menu">
             <img src="resources/images/logos/circle.svg" alt="circle"> 
@@ -42,7 +59,7 @@
       <div id="formulario">
         <h1 id="tituloForm">Contact Us</h1><br><br>
         <div class="divNombre">
-            <form action="enviar.php" method="POST">
+            <form  id="enviarForm" action="enviar.php" method="POST">
             <label class="labelform" for="nombre">Full Name:*</label><br>
             <input id="nombre" type="text" id="nombre" name="nombre" placeholder="Enter your full name" required><br><br>
         </div>
@@ -86,5 +103,6 @@
 
         <script src="https://kit.fontawesome.com/8a092fe5ef.js" crossorigin="anonymous"></script>
         <script src="./resources/js/index.js"></script>
+        <script src="./resources/js/contact.js"></script>
       </html>
 
