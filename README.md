@@ -105,7 +105,7 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 <!-- ACKNOWLEDGMENTS -->
 
-## agradecimientos
+## Agradecimientos
 
 Primero agradecer a Ironhack la oportunidad de aprender un mundo completamente nuevo para mí y poder aprender y desafiarme en este proyecto.
 Agredecer a nuestro Profesor Diego Zito por las clases y guiarnos en este mundo de la programación.
@@ -119,6 +119,8 @@ Y por ultimo agradecer a Amazon la oportunidad de poder desarrollar nuestros cam
 ## Desafío Técnico
 
 El desafío técnico ha sido todo para mí, ya que es la primera vez que hago un proyecto como este y lo he de hacer yo sola. Aún me queda mucho camino para aprender a dominar todos los lenguajes de programación que estamos usando, pero poco a poco empiezo a entenderlos y manejarlos.
+Por poner un ejemplo en la versión movil, el poder conseguir el menú desplegable con la transición para que las opciones se fueran desplegando poco a poco y que no aparecieran todas de golpe. 
+
 
 ## Grande Error
 
