@@ -62,7 +62,7 @@ En este proyecto vamos a utilizar las utilizar HTML5, CSS3 y JavaScript.
 
 Las funcionabilidades de la página serán poder desplazarnos por ella mediante las secciones que hemos creado y poder rellenar un formulario de contacto. 
 
-Para poder hacer la página web adaptada para poder verla adecuadamente en el móvil he utilizado el sigueiente enlace para poder tener una guía de como proceder. 
+Para poder hacer la página web adaptada para poder verla adecuadamente en el móvil he utilizado el siguiente enlace para poder tener una guía de como proceder. 
 
 https://www.youtube.com/watch?v=x-MFJhqRZ7s&t=9s
 
@@ -102,7 +102,7 @@ Project Link Vercel: https://circle-agency-project.vercel.app/
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
-<!-->
+<!--
 La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
 
 En esta sección se puede incluir información como:
@@ -119,7 +119,7 @@ Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.c
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
-<-->
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
